@@ -43,7 +43,7 @@ jobs:
         git commit -m "벅스뮤직 차트 데이터 수집"
 
     - name: push
-      uses: orgin -m/github-push-action@master
+      uses: ad-m/github-push-action@master
       with:
         brankch: "main"
         github_token: $
