@@ -38,7 +38,7 @@ jobs:
       run: |
         git config --global user.email "a01063363854@gmail.com"
         git config --global user.name "nicejmp1"
-        git add bugsChart100.json
+        git add bugsChart100_*.json  # 와일드카드 사용
         git commit -m "벅스뮤직 차트데이터 수집"
         
     - name: push
